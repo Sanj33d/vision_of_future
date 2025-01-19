@@ -1,0 +1,82 @@
+*{
+    font-family: "Fira Sans", serif;
+    margin: 0;
+}
+
+body{
+    margin: 0 160px;
+}
+
+/* nav styles */
+.nav-title{
+    font-size: 30.4px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.btn-signin{
+    font-size: 17.1px;
+    font-weight:600;
+    color: #006A50;
+
+    background-color: white;
+    padding: 13.68px 28.5px;
+    border-radius: 7.6px;
+    border-color: #006A50;
+    border: 0.95px solid;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 31px 0px;
+}
+
+/* banner styles */
+.banner-bg{
+    background-color: #C6E4D6;
+    border-radius: 22.8px;
+    margin-top: 20px;
+}
+
+.banner{
+    height: 532px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.banner-title{
+    font-size: 22.8px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+
+    margin-bottom: 15.2px;
+}
+.banner-description{
+    font-size: 53.2px;
+    font-weight:700;
+    color: #0E0E0E;
+    
+    margin-bottom: 22.8px;
+};
+
+.banner-img{
+    width: 450.3px
+}
+.banner-content{
+    width: 591px;
+}
+
+.banner-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
