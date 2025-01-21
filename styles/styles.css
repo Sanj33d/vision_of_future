@@ -4,28 +4,38 @@
     padding: 0px;
 }
 
-body{
-    margin: 0 160px;
+header, main{
     background-color: #F5F5F5;
+    padding: 1px 160px;    /*0px howar kotha but works for 1px instead*/
 }
 
 /* nav styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 31px 0px 31px 0px;
+}
+
 .nav-title{
-    font-size: 30.4px;
+    font-size: 32px;
     font-weight: 700;
     color: #0E0E0E;
 }
+
 .btn-signin{
-    font-size: 17.1px;
+    font-size: 18px;
     font-weight:600;
     color: #006A50;
 
     background-color: white;
-    padding: 13.68px 28.5px;
+    padding: 15px 30px;
 
-    border-radius: 7.6px;
+    border-radius: 8px;
     border-color: #006A50;
-    border: 0.95px solid;
+    border: 1px solid;
 
     cursor: pointer;
 }
@@ -34,49 +44,40 @@ body{
     background-color: #C6E4D6;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 31px 0px;
-}
-
 /* banner styles */
-.banner-bg{
+
+.banner-container{
     background-color: #C6E4D6;
-    border-radius: 22.8px;
-    margin-top: 20px;
+    border-radius: 24px;
+    margin-top: 44px;
 }
 
 .banner{
-    height: 532px;
-
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 0 60px;
+    align-items: center;
+    
+    padding: 80px 60px;
 }
 
 .banner-title{
-    font-size: 22.8px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight:500;
     color: rgba(14, 14, 14, 0.5);
 
-    margin-bottom: 15.2px;
+    margin-bottom: 16px;
 }
+
 .banner-description{
-    font-size: 53.2px;
+    font-size: 56px;
     font-weight:700;
     color: #0E0E0E;
     
-    margin-bottom: 22.8px;
+    margin-bottom: 24px;
 };
 
-.banner-img{
-    width: 450.3px
-}
 .banner-content{
-    width: 591px;
+    width: 50%;
 }
 
 .banner-btn{
@@ -91,9 +92,8 @@ nav{
 
     cursor: pointer;
 }
-/* header (nav, banner) done */
 
-/* pillar sectioin style */
+/* pillar section style */
 
 .pillar-container{
     display: flex;
@@ -560,6 +560,11 @@ hr {
 .footer-img-container{
     display: flex;
     gap: 23px;
+}
+
+footer img:hover{
+    width: 2em;
+    height: 2em;
 }
 
 
