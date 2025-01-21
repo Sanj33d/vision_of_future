@@ -233,9 +233,13 @@ nav{
     border-color: rgba(14, 14, 14, 0.15);
     margin-top: 32px;
 
-    padding: 48px 24px;
+    padding: 25px 24px;
 }
-
+.quote-bg{
+    padding: 23px 0px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
 /* news styles */
 .news-card{
     display: flex;
@@ -279,8 +283,6 @@ nav{
     color: rgba(14, 14, 14, 0.7)
 }
 
-
-/* from here....... */
 .news-title{
     font-size: 32px;
     font-weight: 700;
@@ -373,6 +375,23 @@ nav{
     cursor: pointer;
 }
 /* subscribe style */
+
+.subscribe{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+
+    margin: 80px 0px;
+    padding: 80px 265px;  
+}
+
+.subscribe-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    
+    margin-bottom: 16px;
+}
+
 .subscribe-description{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
@@ -382,12 +401,10 @@ nav{
     
 }
 
-.subscribe{
-    background-color: #C6E4D6;
-    border-radius: 24px;
+.input-and-button{
+    display: flex;
 
-    margin: 80px 0px;
-    padding: 80px 265px;  
+    margin-bottom: 24px;
 }
 
 #email-input{
@@ -402,6 +419,7 @@ nav{
     font-size: 16px;
     font-weight: 400;
 }
+
 .subscribe-btn{
     color: #FFFFFF;
     background-color: #006A50;
@@ -413,18 +431,7 @@ nav{
     cursor: pointer;
 }
 
-.input-and-button{
-    display: flex;
 
-    margin-bottom: 24px;
 
-}
-.subscribe-title{
-    font-size: 40px;
-    font-weight: 700;
-
-    color: #0E0E0E;
-    margin-bottom: 16px;
-}
 
 
