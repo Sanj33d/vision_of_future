@@ -93,6 +93,7 @@ nav{
 /* header (nav, banner) done */
 
 /* section vision styles */
+
 .vision-card-container{
     display: flex;
     justify-content: space-between;
@@ -241,20 +242,20 @@ nav{
     background-repeat: no-repeat;
 }
 /* news styles */
-.news-card{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 32px;
-
-    margin: 48px;
-    height: 402px;
-    
-}
 
 .news-card-bg{
     background-color: #FFFFFF;
     border-radius: 24px;
+    padding: 48px;
+
+    margin-bottom: 24px;
+}
+
+.news-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px; 
 }
 
 .news-img{
@@ -262,35 +263,32 @@ nav{
     border-radius: 24px;
 }
 
-.news-content{
-    width: 744px;
-}
-
 .news-card-container{
     margin-top: 32px;
-}
-
-.date{
-    margin-right: 12px;
-}
-
-.channel-img{
-    margin-top: 12px;
-}
-
-.date-time{
-    margin-top: 12px;
-    color: rgba(14, 14, 14, 0.7)
 }
 
 .news-title{
     font-size: 32px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
-
 }
+
+.channel-img{
+    margin-top: 12px;
+}
+
+.date{
+    margin-right: 12px;
+}
+
+.date-time{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
 .news-description{
     margin-top: 12px;
+    
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
@@ -307,9 +305,10 @@ nav{
 }
 
 .news-btn-parent{
-    margin-top: 3%;
+    margin-top: 32px;
 }
-/* news styles done */
+
+/* donation section */
 
 .donation-description{
     font-size: 16px;
@@ -321,6 +320,15 @@ nav{
 
 .text-center{
     text-align: center;
+}
+
+.donation-card-container{
+    display: flex;
+    justify-content: space-around;
+
+    /* margin: 32px 104px 0px 104px; */
+    margin-top: 32px;
+    gap: 24px;
 }
 
 .donation-card{
@@ -338,15 +346,6 @@ nav{
     cursor: pointer;
 }
 
-.donation-card-container{
-    display: flex;
-    justify-content: space-around;
-
-    /* margin: 32px 104px 0px 104px; */
-    margin-top: 32px;
-    gap: 24px;
-}
-
 .donation-card:hover{
     background-color: #C6E4D6;
 }
@@ -360,7 +359,7 @@ nav{
 
 #donation-input::placeholder{
     color: rgba(14, 14, 14, 0.3);
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
 }
 .donation-btn{
@@ -416,8 +415,9 @@ nav{
 
 #email-input::placeholder{
     color: rgba(14, 14, 14, 0.3);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
+    width: 100%;
 }
 
 .subscribe-btn{
