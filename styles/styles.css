@@ -1,6 +1,7 @@
 *{
     font-family: "Fira Sans", serif;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -92,14 +93,67 @@ nav{
 }
 /* header (nav, banner) done */
 
+/* pillar sectioin style */
+
+.pillar-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+    margin-top: 32px;
+}
+
+.pillar{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 25px;
+
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.15);
+}
+
+.pillar-img{
+    margin-bottom: 24px;
+}
+
+.pillar-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.pillar-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight:400;
+}
+
 /* section vision styles */
+
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+
+    margin-top: 80px;
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    
+    margin-top: 24px;
+}
 
 .vision-card-container{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    
     gap: 24px;
+
+    margin-top: 32px;
 }
 
 .vision-card1{
@@ -130,6 +184,7 @@ nav{
 
     margin-top: 24px;
 }
+
 .vision-card-description{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
@@ -145,7 +200,6 @@ nav{
     border: none;
 
     margin-top: 24px;
-
     cursor: pointer;
 }
 
@@ -157,7 +211,6 @@ nav{
     border: none;
 
     margin-top: 24px;
-
     cursor: pointer;
 }
 
@@ -169,7 +222,6 @@ nav{
     border: none;
 
     margin-top: 24px;
-
     cursor: pointer;
 }
 
@@ -179,29 +231,6 @@ nav{
 .vision-card-title{
     padding-bottom: 12px;
 }
-
-
-
-.section-title{
-    font-size: 40px;
-    font-weight: 700;
-
-    color: #0E0E0E;
-    margin-top: 80px;
-}
-
-.section-description{
-    font-size: 16px;
-    font-weight: 400;
-    
-    color: rgba(14, 14, 14, 0.7);
-    margin-top: 24px;
-}
-
-.vision-card-container{
-    margin-top: 32px;
-}
-
 
 /* quote styles */
 
