@@ -24,6 +24,12 @@ body{
     border-radius: 7.6px;
     border-color: #006A50;
     border: 0.95px solid;
+
+    cursor: pointer;
+}
+
+.btn-signin:hover{
+    background-color: #C6E4D6;
 }
 
 nav{
@@ -80,6 +86,8 @@ nav{
     padding: 17px 34px;
     border-radius: 8px;
     border: none;
+
+    cursor: pointer;
 }
 /* header (nav, banner) done */
 /* section vision styles */
@@ -133,6 +141,8 @@ nav{
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
+
+    cursor: pointer;
 }
 
 .vision-btn-crd2{
@@ -141,6 +151,8 @@ nav{
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
+
+    cursor: pointer;
 }
 
 .vision-btn-crd3{
@@ -149,6 +161,8 @@ nav{
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
+
+    cursor: pointer;
 }
 
 .vision-card-img{
@@ -243,6 +257,8 @@ nav{
     border: none;
     padding: 13px 26px;
     border-radius: 8px;
+
+    cursor: pointer;
 }
 
 .news-btn-parent{
@@ -273,6 +289,8 @@ nav{
     border-radius: 16px;
     border: solid 1px;
     border-color: rgba(14, 14, 14, 0.15);
+
+    cursor: pointer;
 }
 
 .donation-card-container{
@@ -284,8 +302,8 @@ nav{
     gap: 24px;
 }
 
-.second-donation-card{
-    background-color: rgba(198, 228, 214, 1);
+.donation-card:hover{
+    background-color: #C6E4D6;
 }
 
 input[type="number"]{
@@ -302,6 +320,8 @@ input[type="number"]{
     border-radius: 8px;
     border: none;
     margin-top: 32px;
+
+    cursor: pointer;
 }
 /* subscribe style */
 .subscribe-description{
@@ -340,7 +360,7 @@ input[type="number"]{
     border-radius: 0px 8px 8px 0px;
     border: none;
     
-
+    cursor: pointer;
 }
 
 .input-and-button{
