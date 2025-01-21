@@ -205,6 +205,23 @@ nav{
 
 /* quote styles */
 
+.quote-bg{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+
+    padding: 25px 24px;
+}
+
+.quote{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+
+    padding: 23px 0px;
+}
+
 .quote-description{
     font-size: 16px;
     font-weight: 400;
@@ -216,7 +233,7 @@ nav{
     font-weight:600;    
     color: rgba(14, 14, 14, 0.8);
 
-    padding-top: 12px;
+    margin-top: 12px;
 }
 
 .designation{
@@ -224,23 +241,9 @@ nav{
     font-weight:400;    
     color: rgba(14, 14, 14, 0.6); 
     
-    padding-top: 4px;
+    margin-top: 4px;
 }
 
-.quote{
-    background-color: #FFFFFF;
-    border-radius: 16px;
-    border: 1px solid;
-    border-color: rgba(14, 14, 14, 0.15);
-    margin-top: 32px;
-
-    padding: 25px 24px;
-}
-.quote-bg{
-    padding: 23px 0px;
-    background-image: url("../assets/quote-bg.png");
-    background-repeat: no-repeat;
-}
 /* news styles */
 
 .news-card-bg{
@@ -288,7 +291,7 @@ nav{
 
 .news-description{
     margin-top: 12px;
-    
+
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
